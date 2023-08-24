@@ -21,14 +21,6 @@ const Nav = () => {
         setUpProviders();
     }, []);
 
-    useEffect(() => {
-        const delayedAction = setTimeout(() => {
-            console.log("Delayed action after 5 seconds");
-        }, 5000);
-
-        delayedAction();
-    }, []);
-
     return (
         <nav className="flex-between w-full mb-16 pt-3">
             <Link href="/" className="flex gap-2 flex-center">
@@ -42,8 +34,9 @@ const Nav = () => {
                 <p className="logo_text">Promptopia</p>
             </Link>
 
-            
-            {/* {alert("hi")} */}
+            <span className="hidden ">
+                {setTimeout(() => {}, 1000)}
+            </span>
 
             {/*  Desktop Navigation */}
 
