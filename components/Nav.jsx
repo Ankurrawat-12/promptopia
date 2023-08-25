@@ -34,9 +34,9 @@ const Nav = () => {
                 <p className="logo_text">Promptopia</p>
             </Link>
 
-            <span className="hidden ">
+            {/* <span className="hidden ">
                 {setTimeout(() => {}, 1000)}
-            </span>
+            </span> */}
 
             {/*  Desktop Navigation */}
 
