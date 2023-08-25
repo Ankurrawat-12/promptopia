@@ -11,6 +11,7 @@ export const metadata = {
 const RootLayout = ({ children }) => {
     return (
         <head lang="en">
+            <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
             <body>
                 <Provider>
                     <div className="main">
